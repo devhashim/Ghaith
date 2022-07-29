@@ -1,0 +1,77 @@
+
+
+
+
+
+.campus-col{
+	flex-basis:30%;
+	border-radius:10px;
+	margin-bottom:80px;
+	position:relative;
+	overflow:hidden;
+    
+}
+
+.campus-col img{
+	width:100%;
+}
+
+
+
+.btn{
+	padding:8px 10px;
+	cursor:pointer;
+}
+
+.btn-outline-success{
+    background-color: rgb(190, 13, 13);
+    border-color:  rgb(190, 13, 13);
+    color: #fafafa;
+}
+
+.btn-outline-light{
+    color: #000000;
+    background-color: #fafafa;
+}
+
+.card{
+	border-radius:10px;
+}
+.card img{
+	border-radius:10px;
+}
+
+
+.layer{
+	background:transparent;
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	transition:1s;
+}
+
+.layer:hover{
+	background:rgba(0,0,0,0.7);
+}
+
+.layer .trans{
+	width:100%;
+	font-weight:100;
+	color:#fff;
+	font-size:26px;
+	bottom:0;
+	left:50%;
+	transform:translateX(-50%);
+	position:absolute;
+	opacity:0;
+	transition:1s;
+}
+
+.layer:hover .trans{
+	bottom:50%;
+	opacity:1;
+}
+
+

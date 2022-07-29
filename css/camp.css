@@ -1,0 +1,138 @@
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+
+	.section_about{
+
+		background-color: #d6d6d6;
+	}
+
+		.image img {
+			display: block;
+		}
+
+
+	.navbar{
+		box-shadow: 1px 2px 5px rgb(197, 197, 197);
+		text-align: right;
+	
+	
+	}
+		
+
+			.section_signup{
+				width: 30%;
+				margin-right: 35%;
+				margin-top: 1%;
+				padding:8px 10px;
+				cursor:pointer;
+
+
+				
+			}
+			
+			.input-group{
+				margin-top: 20px;
+				
+			}
+			
+			.input-group-addon{
+				background: transparent;
+				border-radius: 0px;
+				border: 0px;
+			   font-size: 20px;
+			  
+			
+			}
+			
+			.form-control{
+			
+				border-radius: 0px;
+				border: 0px;
+				border-bottom: 1px solid  #3c5421;
+				font-size: 16px;
+				text-align: right;
+			height: 30px;
+				padding: 15px;
+				background-color: transparent;
+			  
+			
+			
+			
+			}
+			
+			.form-date{
+			
+				border-radius: 0px;
+				border: 1px  #3c5421;
+				border-bottom: 1px solid #3c5421;
+				font-size: 16px;
+			text-align: right;
+				height: 30px;
+				padding: 15px;
+				background-color: transparent;
+			}
+			
+			.from-text{
+				font-size: 16px;
+				margin-bottom: 50px;
+				margin-right: 500px;
+				text-align: center;
+				border-radius: 0px;
+				border: 10px;
+				border-color: transparent;
+				height: 50px;
+				padding: 30px;
+			
+
+			}
+
+			.btn{
+			background-color:  #3c5421;
+				margin-top: 20px;
+				width: 100px;
+				height: 30px;
+				margin-left: 70px;
+				font-size: 15px;
+				border-color:  #3c5421;
+
+			}
+			
+			.form-file{
+				padding: 4px;
+				border-radius: 0px;
+				border: 0px;
+				border-bottom: 1px solid #3c5421;
+				text-align: right;
+			height: 35px;
+			
+			}
+			.section__title{
+				color: #3c5421;
+				margin-top: 25%;
+				}
+				
+				
+			.w-100{
+				margin-top: 10%;
+				margin-bottom: 10%;
+			}	
+				
+				.section__title :after{
+					content: "";
+					display: block;
+					width: 70%;
+					height: 5px;
+					background-color: aliceblue;
+				
+				}
+			
+			
+			

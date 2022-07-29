@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+
+html{
+	scroll-behavior: smooth;
+
+}
+body{
+	direction: rtl;
+	text-align: right;
+	font-family: "Tajawal";
+	background-image: url("../images/bg111.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+
+
+.section{
+
+	padding: 80px 0;
+}
+
+.section__title{
+position: relative;
+color: #28a745;
+}
+
+
+
+
+.section__title :after{
+	content: "";
+	display: block;
+	width: 70%;
+	height: 5px;
+	background-color: aliceblue;
+
+}
+
+
+
+.section__be{
+	position: relative;
+		color: #0d0e0d;
+		text-align: center;
+	
+		}
+
+
+	
+	
+
+.navbar{
+	box-shadow: 1px 2px 5px rgb(194, 194, 194);
+	text-align: right;
+
+
+}
+
+.sin{
+
+	color:white;
+}
+
+
+
+.home-item {
+	width: 50%;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+
+
+
+.home-item h2 {
+	color: aliceblue;
+	font-size: 40;
+}
+
+.home-item h5 {
+	color: rgb(215, 217, 219);
+	font-size: 40;
+}
+
+.campus-col{
+	flex-basis:30%;
+	border-radius:10px;
+	margin-bottom:30px;
+	position:relative;
+	overflow:hidden;
+}
+
+.campus-col img{
+	width:100%;
+}
+
+.btn{
+	padding:8px 10px;
+	cursor:pointer;
+}
+
+.card{
+	border-radius:10px;
+}
+.card img{
+	border-radius:10px;
+}
+
+
+.layer{
+	background:transparent;
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	transition:1s;
+}
+
+.layer:hover{
+	background:rgba(0,0,0,0.7);
+}
+
+.layer .trans{
+	width:100%;
+	font-weight:100;
+	color:#fff;
+	font-size:26px;
+	bottom:0;
+	left:50%;
+	transform:translateX(-50%);
+	position:absolute;
+	opacity:0;
+	transition:1s;
+}
+
+.layer:hover .trans{
+	bottom:50%;
+	opacity:1;
+}
+h4{
+	color:#f8f9fa        
+}
+
+.section_cont{
+	width: 30%;
+	margin-right: 40%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding:8px 10px;
+	cursor:pointer;
+}
+
+
+
+.link
+{
+	color: rgb(255, 255, 255);
+}

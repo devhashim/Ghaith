@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+
+html{
+	scroll-behavior: smooth;
+
+}
+body{
+    background-image: url('../images/33.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Tajawal';
+    direction: rtl;
+	text-align: right;
+    color: #585858;
+    
+
+}
+
+.navbar{
+	box-shadow: 1px 2px 5px rgb(197, 197, 197);
+	text-align: right;
+
+}
+
+
+
+
+
+
+
+
+.section_signup{
+	width: 30%;
+	margin-right: 35%;
+	margin-top: 15%;
+	padding:8px 10px;
+	cursor:pointer;
+}
+
+.input-group{
+    margin-top: 20px;
+    color: #585858;
+    
+}
+
+.input-group-addon{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+   font-size: 20px;
+   color: #585858;
+
+}
+
+.form-control{
+
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid rgb(28, 163, 35);
+    font-size: 16px;
+    text-align: right;
+height: 30px;
+    padding: 15px;
+    background-color:transparent;
+    color: #585858;
+  
+
+}
+
+
+.nav-n {
+    text-align: right;
+    height: 50px;
+ 
+        padding: 3px;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid rgb(28, 163, 35);
+
+
+}
+
+
+
+input[type="ckeckbox"]{
+    margin-top: 20px;
+    height: 20px;
+    width:10px;
+    color: #585858;
+}
+
+.btn{
+
+    margin-top: 20px;
+    width: 100px;
+    margin-right: 150px;
+    font-size: 15px;
+}
+
+h3
+
+{
+    color: #3b2c02;
+}
+
+
+.form-file{
+    padding: 5px;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid rgb(28, 163, 35);
+    text-align: right;
+height: 50px;
+color: #585858;
+
+}
+.placeholder{
+    color: #ffffff;
+
+}
+
+
